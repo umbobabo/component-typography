@@ -1,0 +1,62 @@
+@import "index.css";
+
+body {
+    font-family: 'Milo Serif';
+    font-size: 20px;
+    line-height: 1.4em;
+    max-width: 30em;
+    margin: auto;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.step-7 {
+    font-size: var(--ms-step-7);
+    line-height: 1.4em;
+}
+
+.step-6 {
+    font-size: var(--ms-step-6);
+    line-height: 1.4em;
+}
+
+.step-5 {
+    font-size: var(--ms-step-5);
+    line-height: 1.4em;
+}
+
+.step-4 {
+    font-size: var(--ms-step-4);
+    line-height: 1.4em;
+}
+
+.step-3 {
+    font-size: var(--ms-step-3);
+    line-height: 1.4em;
+}
+
+.step-2 {
+    font-size: var(--ms-step-2);
+    line-height: 1.4em;
+}
+
+.step-1 {
+    font-size: var(--ms-step-1);
+    line-height: 1.4em;
+}
+
+.step-0, p {
+    font-size: var(--ms-step-0);
+    line-height: 1.4em;
+}
+
+.step--1 {
+    font-size: var(--ms-step--1);
+    line-height: 1.4em;
+}
+
+.step--2 {
+    font-size: var(--ms-step--2);
+}

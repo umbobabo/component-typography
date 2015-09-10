@@ -1,0 +1,20 @@
+/**
+ * Modular scale for type.
+ */
+
+:root {
+    --scale-factor: 1.125;  /* Major second */
+
+    --ms-step-0: 1em;
+    --ms-step--1: calc( var(--ms-step-0)  / var(--scale-factor) );
+    --ms-step--2: calc( var(--ms-step--1) / var(--scale-factor) );
+
+    --ms-step-1:  calc( var(--ms-step-0)  * var(--scale-factor) );
+    --ms-step-2:  calc( var(--ms-step-1)  * var(--scale-factor) );
+    --ms-step-3:  calc( var(--ms-step-2)  * var(--scale-factor) );
+    --ms-step-4:  calc( var(--ms-step-3)  * var(--scale-factor) );
+    --ms-step-5:  calc( var(--ms-step-4)  * var(--scale-factor) );
+    --ms-step-6:  calc( var(--ms-step-5)  * var(--scale-factor) );
+    --ms-step-7:  calc( var(--ms-step-6)  * var(--scale-factor) );
+}
+
