@@ -3,6 +3,7 @@
  */
 
 :root {
+    /** Modular scale **/
     --scale-factor: 1.125;  /* Major second */
 
     --ms-step-0: 1em;
@@ -16,5 +17,8 @@
     --ms-step-5:  calc( var(--ms-step-4)  * var(--scale-factor) );
     --ms-step-6:  calc( var(--ms-step-5)  * var(--scale-factor) );
     --ms-step-7:  calc( var(--ms-step-6)  * var(--scale-factor) );
+
+    --fontfamily-sans-serif: Halifax, Tahoma, sans-serif;
+    --fontfamily-serif: Milo, Palatino, serif;
 }
 

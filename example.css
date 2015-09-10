@@ -60,3 +60,13 @@ body {
 .step--2 {
     font-size: var(--ms-step--2);
 }
+
+
+.milo-example {
+    font-family: var(--fontfamily-serif);
+}
+
+.halifax-example {
+    font-family: var(--fontfamily-sans-serif);
+}
+
