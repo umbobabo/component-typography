@@ -6,19 +6,19 @@
     /** Modular scale **/
     --scale-factor: 1.125;  /* Major second */
 
-    --ms-step-0: 1em;
-    --ms-step--1: calc( var(--ms-step-0)  / var(--scale-factor) );
-    --ms-step--2: calc( var(--ms-step--1) / var(--scale-factor) );
+    --text-size-step-0: 1em;
+    --text-size-step--1: calc( var(--text-size-step-0)  / var(--scale-factor) );
+    --text-size-step--2: calc( var(--text-size-step--1) / var(--scale-factor) );
 
-    --ms-step-1:  calc( var(--ms-step-0)  * var(--scale-factor) );
-    --ms-step-2:  calc( var(--ms-step-1)  * var(--scale-factor) );
-    --ms-step-3:  calc( var(--ms-step-2)  * var(--scale-factor) );
-    --ms-step-4:  calc( var(--ms-step-3)  * var(--scale-factor) );
-    --ms-step-5:  calc( var(--ms-step-4)  * var(--scale-factor) );
-    --ms-step-6:  calc( var(--ms-step-5)  * var(--scale-factor) );
-    --ms-step-7:  calc( var(--ms-step-6)  * var(--scale-factor) );
+    --text-size-step-1:  calc( var(--text-size-step-0)  * var(--scale-factor) );
+    --text-size-step-2:  calc( var(--text-size-step-1)  * var(--scale-factor) );
+    --text-size-step-3:  calc( var(--text-size-step-2)  * var(--scale-factor) );
+    --text-size-step-4:  calc( var(--text-size-step-3)  * var(--scale-factor) );
+    --text-size-step-5:  calc( var(--text-size-step-4)  * var(--scale-factor) );
+    --text-size-step-6:  calc( var(--text-size-step-5)  * var(--scale-factor) );
+    --text-size-step-7:  calc( var(--text-size-step-6)  * var(--scale-factor) );
 
-    --fontfamily-sans-serif: Halifax, Tahoma, sans-serif;
-    --fontfamily-serif: Milo, Palatino, serif;
+    --fontfamily-body: Halifax, Tahoma, sans-serif;
+    --fontfamily-display: Milo, Palatino, serif;
 }
 
