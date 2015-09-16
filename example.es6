@@ -2,11 +2,11 @@ import React from 'react';
 import SampleText from './sampletext.es6';
 
 const fonts = [
-  ['body', '', 'Halifax Regular'],
-  ['body', 'bold', 'Halifax Bold'],
-  ['body', 'light', 'Halifax Light'],
-  ['display', 'italic', 'FF Milo Serif Pro Med Italic'],
-  ['display', '', 'FF Milo Serif Pro'],
+  [ 'body', '', 'Halifax Regular' ],
+  [ 'body', 'bold', 'Halifax Bold' ],
+  [ 'body', 'light', 'Halifax Light' ],
+  [ 'display', 'italic', 'FF Milo Serif Pro Med Italic' ],
+  [ 'display', '', 'FF Milo Serif Pro' ],
 ];
 const eachSample = fonts.map((fontFamily) => {
   const [ kind, modifier, family ] = fontFamily;
