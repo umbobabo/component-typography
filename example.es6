@@ -2,20 +2,26 @@ import React from 'react';
 import SampleText from './sampletext.es6';
 
 const fonts = [
-  'Halifax Regular',
-  'Halifax Bold',
-  'Halifax Light',
-  'FF Milo Serif Pro Med Italic',
-  'FF Milo Serif Pro',
+  ['body', '', 'Halifax Regular'],
+  ['body', 'bold', 'Halifax Bold'],
+  ['body', 'light', 'Halifax Light'],
+  ['display', 'italic', 'FF Milo Serif Pro Med Italic'],
+  ['display', '', 'FF Milo Serif Pro'],
 ];
 const eachSample = fonts.map((fontFamily) => {
-  const style = { fontFamily };
+  const [ kind, modifier, family ] = fontFamily;
+  const classes = [
+    `example__${ kind }-text`,
+    modifier && `example__${ kind }-text--${ modifier }`
+  ].join(' ');
+  const style = { fontFamily: family };
   return (
     <div>
-      <h2>Sample for font-family: {fontFamily}</h2>
+      <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
       <div
+        className={classes}
         style={style}
-        data-font={fontFamily.toLowerCase().replace(/ /g, '-')}
+        data-font={family.toLowerCase().replace(/ /g, '-')}
       ><SampleText /></div>
       <hr/>
     </div>
@@ -23,16 +29,6 @@ const eachSample = fonts.map((fontFamily) => {
 });
 export default (
   <div className="samples">
-    <h1>component-typography examples</h1>
-    <h2>serif and sans-serif font variables</h2>
-    <p>By using <code>var(--fontfamily-sans-serif)</code>
-    and
-    <code>var(--fontfamily-serif)</code>, respectively, you will get a serif
-    (<span className="milo-example">Milo</span>), or a sans-serif font
-    (<span className="halifax-example">Halifax</span>), and their respective
-    fallback fonts. By standardizing this we enable future changes to the
-    main sans-serif and serif fonts of the website to be much simpler to
-    perform, besides making it easier to provide font fallbacks.</p>
     {eachSample}
   </div>
 );
