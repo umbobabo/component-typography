@@ -1,5 +1,5 @@
 import React from 'react';
-import SampleText from './sampletext.es6';
+import SampleText from './sampletext';
 import Tabs from 'react-simpletabs';
 
 const fonts = [
