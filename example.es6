@@ -1,5 +1,6 @@
 import React from 'react';
 import SampleText from './sampletext.es6';
+import Tabs from 'react-simpletabs';
 
 const fonts = [
   [ 'body', '', 'Halifax Regular' ],
@@ -29,7 +30,7 @@ const eachSample = fonts.map((fontFamily) => {
 });
 
 export default (
-  <div className="samples">
+  <Tabs className="samples library--example-tabs">
     {eachSample}
-  </div>
+  </Tabs>
 );

@@ -1,4 +1,5 @@
 @import "index.css";
+@import "react-simpletabs/lib/react-simpletabs.css";
 
 body {
   font-size: 20px;
