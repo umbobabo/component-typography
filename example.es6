@@ -17,7 +17,7 @@ const eachSample = fonts.map((fontFamily) => {
   ].join(' ');
   const style = { fontFamily: family };
   return (
-    <Tabs.Panel title={fontFamily.join(' ')} key={`typography-${fontFamily.join('x')}`}>
+    <Tabs.Panel title={family} key={`typography-${fontFamily.join('x')}`}>
       <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
       <div
         className={classes}
