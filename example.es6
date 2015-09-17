@@ -30,7 +30,7 @@ const eachSample = fonts.map((fontFamily) => {
 });
 
 export default (
-  <Tabs className="samples library--example-tabs">
+  <Tabs className="library--example-tabs">
     {eachSample}
   </Tabs>
 );
