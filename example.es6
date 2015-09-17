@@ -16,7 +16,7 @@ const eachSample = fonts.map((fontFamily) => {
   ].join(' ');
   const style = { fontFamily: family };
   return (
-    <div>
+    <Tabs.Panel title={fontFamily.join(' ')} key={`typography-${fontFamily.join('x')}`}>
       <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
       <div
         className={classes}
@@ -24,9 +24,10 @@ const eachSample = fonts.map((fontFamily) => {
         data-font={family.toLowerCase().replace(/ /g, '-')}
       ><SampleText /></div>
       <hr/>
-    </div>
+    </Tabs.Panel>
   );
 });
+
 export default (
   <div className="samples">
     {eachSample}
