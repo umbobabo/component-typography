@@ -1,8 +1,33 @@
 import React from 'react';
 
+const roundTo = (number, decimalPlaces) => Math.round(number * Math.pow(10, decimalPlaces)) / (Math.pow(10, decimalPlaces));
+const round3 = (number) => roundTo(number, 3);
+const round1 = (number) => roundTo(number, 1);
+
+const modularScale = (step) => Math.pow(1.125, step);
+
+const stepFromClass = (className) => {
+  if (!className) { return 0; }
+  const theClass = className.split(/\s+/).filter(cls => /^step-/.test(cls))[0];
+
+  if (!theClass) { return 0; }
+
+  const [leftOfDash, rightOfDash] = theClass.split('-');
+  return +(rightOfDash || 0);
+}
+
+const addModularScaleTitles = (elm) => {
+  elm.props.children.forEach((child) => {
+    const step = stepFromClass(child.props.className || '') || 0;
+    const emSize = modularScale(step);
+    child.props.title = `${ round3(emSize) }em (${ round1(emSize * 20) }px)`;
+  });
+  return elm;
+}
+
 export default class SampleText extends React.Component {
   render() {
-    return (
+    return addModularScaleTitles(
 <section>
 <div className="step-3 flight">Very samplish flight</div>
 
