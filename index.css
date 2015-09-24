@@ -91,3 +91,14 @@
 
 }
 
+html {
+  line-height: var(--text-line-height-body-on-step-0);
+  font-size: 18px;
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 20px;
+  }
+}
+
