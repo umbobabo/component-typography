@@ -17,12 +17,15 @@ const stepFromClass = (className) => {
 }
 
 const addModularScaleTitles = (elm) => {
-  elm.props.children.forEach((child) => {
-    const step = stepFromClass(child.props.className || '') || 0;
-    const emSize = modularScale(step);
-    child.props.title = `${ round3(emSize) }em (${ round1(emSize * 20) }px)`;
+  return React.cloneElement(elm, {
+    children: elm.props.children.map((child) => {
+      const step = stepFromClass(child.props.className || '') || 0;
+      const emSize = modularScale(step);
+      return React.cloneElement(child, {
+        title: `${ round3(emSize) }em (${ round1(emSize * 20) }px)`
+      })
+    }),
   });
-  return elm;
 }
 
 export default class SampleText extends React.Component {
