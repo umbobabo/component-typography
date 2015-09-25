@@ -146,6 +146,7 @@ body {
 
 .example__body-text.example__body-text--bold .step-3 {
   line-height: var(--text-line-height-body-bold-on-step-3);
+  letter-spacing: var(--text-letter-spacing-body-bold-on-step-3);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
@@ -221,11 +222,13 @@ body {
 
 .example__body-text.example__body-text--light .step--1 {
   line-height: var(--text-line-height-body-light-on-step--1);
+  letter-spacing: var(--text-letter-spacing-body-light-on-step--1);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
 .example__body-text.example__body-text--light .step--2 {
   line-height: var(--text-line-height-body-light-on-step--2);
+  letter-spacing: var(--text-letter-spacing-body-light-on-step--2);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
@@ -335,7 +338,3 @@ body {
 .example__display-text .step--2 {
   line-height: var(--text-line-height-display-on-step--2);
 }
-
-
-
-
