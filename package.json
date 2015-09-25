@@ -129,7 +129,7 @@
     "watch": "parallelshell 'npm run doc:watch' 'npm run prepublish:watch' 'npm run serve'"
   },
   "dependencies": {
-    "react-simpletabs": "^0.7.0"
+    "react-simpletabs": "pedronauck/react-simpletabs"
   },
   "peerDependencies": {
     "react": "~0.14.0-rc"
