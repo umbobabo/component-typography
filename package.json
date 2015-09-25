@@ -132,7 +132,7 @@
     "react-simpletabs": "^0.7.0"
   },
   "peerDependencies": {
-    "react": "^0.13.3"
+    "react": "~0.13.3"
   },
   "devDependencies": {
     "@economist/component-devpack": "^3.3.1",
