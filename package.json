@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-typography",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Typography component containing postCSS variables for font sizes and line-heights for each font size. Uses a major second modular scale.",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
