@@ -37,7 +37,6 @@
   --text-line-height-body-on-step--1 : 1.4;
   --text-line-height-body-on-step--2 : 1.34;
 
-
   /* Font: Halifax Bold */
   --text-line-height-body-bold-on-step-7  : 1.1;
   --text-line-height-body-bold-on-step-6  : 1.17;
@@ -49,7 +48,6 @@
   --text-line-height-body-bold-on-step-0  : 1.3;
   --text-line-height-body-bold-on-step--1 : 1.28;
   --text-line-height-body-bold-on-step--2 : 1.4;
-
 
   /* Font: Halifax Light */
   --text-line-height-body-light-on-step-7  : 1.21;
@@ -63,7 +61,6 @@
   --text-line-height-body-light-on-step--1 : 1.35;
   --text-line-height-body-light-on-step--2 : 1.4;
 
-
   /* Font: Ff Milo Serif Pro Med Italic */
   --text-line-height-display-italic-on-step-7  : 1.20;
   --text-line-height-display-italic-on-step-6  : 1.23;
@@ -75,7 +72,6 @@
   --text-line-height-display-italic-on-step-0  : 1.27;
   --text-line-height-display-italic-on-step--1 : 1.24;
   --text-line-height-display-italic-on-step--2 : 1.25;
-
 
   /* Font: Ff Milo Serif Pro */
   --text-line-height-display-on-step-7  : 1.18;
@@ -89,6 +85,66 @@
   --text-line-height-display-on-step--1 : 1.38;
   --text-line-height-display-on-step--2 : 1.38;
 
+  /** Letter spacing **/
+  /* Font: Halifax Regular */
+  --text-letter-spacing-body-on-step-7  : normal;
+  --text-letter-spacing-body-on-step-6  : normal;
+  --text-letter-spacing-body-on-step-5  : normal;
+  --text-letter-spacing-body-on-step-4  : normal;
+  --text-letter-spacing-body-on-step-3  : normal;
+  --text-letter-spacing-body-on-step-2  : normal;
+  --text-letter-spacing-body-on-step-1  : normal;
+  --text-letter-spacing-body-on-step-0  : normal;
+  --text-letter-spacing-body-on-step--1 : normal;
+  --text-letter-spacing-body-on-step--2 : normal;
+
+  /* Font: Halifax Bold */
+  --text-letter-spacing-body-bold-on-step-7  : normal;
+  --text-letter-spacing-body-bold-on-step-6  : normal;
+  --text-letter-spacing-body-bold-on-step-5  : normal;
+  --text-letter-spacing-body-bold-on-step-4  : normal;
+  --text-letter-spacing-body-bold-on-step-3  : 0.003em;
+  --text-letter-spacing-body-bold-on-step-2  : normal;
+  --text-letter-spacing-body-bold-on-step-1  : normal;
+  --text-letter-spacing-body-bold-on-step-0  : normal;
+  --text-letter-spacing-body-bold-on-step--1 : normal;
+  --text-letter-spacing-body-bold-on-step--2 : normal;
+
+  /* Font: Halifax Light */
+  --text-letter-spacing-body-light-on-step-7  : normal;
+  --text-letter-spacing-body-light-on-step-6  : normal;
+  --text-letter-spacing-body-light-on-step-5  : normal;
+  --text-letter-spacing-body-light-on-step-4  : normal;
+  --text-letter-spacing-body-light-on-step-3  : normal;
+  --text-letter-spacing-body-light-on-step-2  : normal;
+  --text-letter-spacing-body-light-on-step-1  : normal;
+  --text-letter-spacing-body-light-on-step-0  : normal;
+  --text-letter-spacing-body-light-on-step--1 : 0.015em;
+  --text-letter-spacing-body-light-on-step--2 : 0.015em;
+
+  /* Font: Ff Milo Serif Pro Med Italic */
+  --text-letter-spacing-display-italic-on-step-7  : normal;
+  --text-letter-spacing-display-italic-on-step-6  : normal;
+  --text-letter-spacing-display-italic-on-step-5  : normal;
+  --text-letter-spacing-display-italic-on-step-4  : normal;
+  --text-letter-spacing-display-italic-on-step-3  : normal;
+  --text-letter-spacing-display-italic-on-step-2  : normal;
+  --text-letter-spacing-display-italic-on-step-1  : normal;
+  --text-letter-spacing-display-italic-on-step-0  : normal;
+  --text-letter-spacing-display-italic-on-step--1 : normal;
+  --text-letter-spacing-display-italic-on-step--2 : normal;
+
+  /* Font: Ff Milo Serif Pro */
+  --text-letter-spacing-display-on-step-7  : normal;
+  --text-letter-spacing-display-on-step-6  : normal;
+  --text-letter-spacing-display-on-step-5  : normal;
+  --text-letter-spacing-display-on-step-4  : normal;
+  --text-letter-spacing-display-on-step-3  : normal;
+  --text-letter-spacing-display-on-step-2  : normal;
+  --text-letter-spacing-display-on-step-1  : normal;
+  --text-letter-spacing-display-on-step-0  : normal;
+  --text-letter-spacing-display-on-step--1 : normal;
+  --text-letter-spacing-display-on-step--2 : normal;
 }
 
 html {
@@ -101,4 +157,3 @@ html {
     font-size: 20px;
   }
 }
-
