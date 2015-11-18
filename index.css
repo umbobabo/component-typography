@@ -18,8 +18,10 @@
   --text-size-step-6:  calc( var(--text-size-step-5)  * var(--scale-factor) );
   --text-size-step-7:  calc( var(--text-size-step-6)  * var(--scale-factor) );
 
-  --fontfamily-body: 'Halifax Regular', Tahoma, sans-serif;
-  --fontfamily-display: 'FF Milo Serif Pro', Palatino, serif;
+  --fontfamily-body-default: 'Halifax Regular', Tahoma, sans-serif;
+  --fontfamily-body: var(--fontfamily-body-custom, var(--fontfamily-body-default));
+  --fontfamily-display-default: 'FF Milo Serif Pro', Palatino, serif;
+  --fontfamily-display: var(--fontfamily-display-custom, var(--fontfamily-display-default));
 
   --text-line-height-basic: 1.4;
 
