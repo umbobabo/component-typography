@@ -133,7 +133,6 @@
   },
   "devDependencies": {
     "@economist/component-devpack": "^3.3.1",
-    "react-simpletabs": "pedronauck/react-simpletabs",
     "babel": "^5.8.23",
     "babelify": "^6.3.0",
     "browser-sync": "^2.8.2",
@@ -149,14 +148,16 @@
     "eslint-plugin-one-variable-per-var": "^0.0.3",
     "eslint-plugin-react": "^3.3.1",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.1",
     "karma-mocha": "^0.2.0",
-    "karma-sauce-launcher": "^0.2.14",
+    "karma-sauce-launcher": "^0.3.0",
     "minifyify": "^7.0.1",
     "mocha": "^2.2.5",
     "npm-watch": "0.0.1",
     "parallelshell": "^2.0.0",
     "pre-commit": "^1.0.10",
     "react": "^0.14.0-rc",
+    "react-simpletabs": "pedronauck/react-simpletabs",
     "watchify": "^3.4.0"
   },
   "pre-commit": [
