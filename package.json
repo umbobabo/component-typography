@@ -128,7 +128,9 @@
     "test": "karma start",
     "watch": "parallelshell 'npm run doc:watch' 'npm run prepublish:watch' 'npm run serve'"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-simpletabs": "pedronauck/react-simpletabs"
+  },
   "devDependencies": {
     "@economist/component-devpack": "^3.3.1",
     "babel": "^5.8.23",
@@ -158,7 +160,6 @@
     "parallelshell": "^2.0.0",
     "pre-commit": "^1.0.10",
     "react": "^0.14.0",
-    "react-simpletabs": "pedronauck/react-simpletabs",
     "watchify": "^3.4.0"
   },
   "peerDependencies": {
