@@ -15,7 +15,7 @@ By using `var(--fontfamily-display)` and `var(--fontfamily-body)`, respectively,
 
 (Where X is a number from `-2` to `7`)
 
-These variables contain a font-size in  `em`s, incrementing in a modular scale (a Major Second scale, or 1.125). Use these to calculate values for `font-size`.
+These variables contain a font-size in  `em`s, incrementing in a [modular scale](http://www.modularscale.com/?20&px&1.125&web&text) (a Major Second scale, or 1.125). Use these to calculate values for `font-size`.
 
 For example, `var(--text-size-step-2)` is the value in `em`s for the font size in the second step of the modular scale.
 
