@@ -4,6 +4,7 @@
 
 :root {
   /** Modular scale **/
+  /* http://www.modularscale.com/?20&px&1.125&web&text */
   --scale-factor: 1.125;  /* Major second */
 
   --text-size-step-0: 1em;
@@ -156,7 +157,7 @@ html {
   font-size: 18px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   html {
     font-size: 20px;
   }
