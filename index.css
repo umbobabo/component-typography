@@ -164,16 +164,16 @@
   --text-letter-spacing-serif-on-step--2 : normal;
 
   /* Font: FF Milo Serif OT Medium */
-  --text-letter-spacing-serif-medium-on-step-7  : normal;
-  --text-letter-spacing-serif-medium-on-step-6  : normal;
-  --text-letter-spacing-serif-medium-on-step-5  : normal;
-  --text-letter-spacing-serif-medium-on-step-4  : normal;
-  --text-letter-spacing-serif-medium-on-step-3  : normal;
+  --text-letter-spacing-serif-medium-on-step-7  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step-6  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step-5  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step-4  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step-3  : -0.020em;
   --text-letter-spacing-serif-medium-on-step-2  : -0.020em;
-  --text-letter-spacing-serif-medium-on-step-1  : normal;
-  --text-letter-spacing-serif-medium-on-step-0  : normal;
-  --text-letter-spacing-serif-medium-on-step--1 : normal;
-  --text-letter-spacing-serif-medium-on-step--2 : normal;
+  --text-letter-spacing-serif-medium-on-step-1  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step-0  : -0.020em;
+  --text-letter-spacing-serif-medium-on-step--1 : -0.020em;
+  --text-letter-spacing-serif-medium-on-step--2 : -0.020em;
 }
 
 html {
