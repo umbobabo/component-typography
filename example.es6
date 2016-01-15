@@ -3,11 +3,12 @@ import SampleText from './sampletext';
 import Tabs from 'react-simpletabs';
 
 const fonts = [
-  [ 'body', '', 'Halifax Regular' ],
-  [ 'body', 'bold', 'Halifax Bold' ],
-  [ 'body', 'light', 'Halifax Light' ],
-  [ 'display', 'italic', 'FF Milo Serif Pro Med Italic' ],
-  [ 'display', '', 'FF Milo Serif Pro' ],
+  [ 'sans', '', 'Halifax Regular' ],
+  [ 'sans', 'bold', 'Halifax Bold' ],
+  [ 'sans', 'light', 'Halifax Light' ],
+  [ 'serif', 'italic', 'FF Milo Serif Pro Med Italic' ],
+  [ 'serif', '', 'FF Milo Serif Pro' ],
+  [ 'serif', 'medium', 'FF Milo Serif Pro Med' ],
 ];
 const eachSample = fonts.map((fontFamily) => {
   const [ kind, modifier, family ] = fontFamily;

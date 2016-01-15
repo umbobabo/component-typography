@@ -55,68 +55,12 @@ body {
 }
 
 
-.example__display-text {
-  font-family: var(--fontfamily-display);
+.example__serif-text {
+  font-family: var(--fontfamily-serif);
 }
 
-.example__body-text {
-  font-family: var(--fontfamily-body);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.example__body-text .step-7 {
-  line-height: var(--text-line-height-body-on-step-7);
-}
-
-.example__body-text .step-6 {
-  line-height: var(--text-line-height-body-on-step-6);
-}
-
-.example__body-text .step-5 {
-  line-height: var(--text-line-height-body-on-step-5);
-}
-
-.example__body-text .step-4 {
-  line-height: var(--text-line-height-body-on-step-4);
-}
-
-.example__body-text .step-3 {
-  line-height: var(--text-line-height-body-on-step-3);
-}
-
-.example__body-text .step-2 {
-  line-height: var(--text-line-height-body-on-step-2);
-}
-
-.example__body-text .step-1 {
-  line-height: var(--text-line-height-body-on-step-1);
-}
-
-.example__body-text .step-0, .example__body-text p {
-  line-height: var(--text-line-height-body-on-step-0);
-}
-
-.example__body-text .step--1 {
-  line-height: var(--text-line-height-body-on-step--1);
-}
-
-.example__body-text .step--2 {
-  line-height: var(--text-line-height-body-on-step--2);
+.example__sans-text {
+  font-family: var(--fontfamily-sans);
 }
 
 
@@ -124,54 +68,110 @@ body {
 
 
 
-.example__body-text.example__body-text--bold .step-7 {
-  line-height: var(--text-line-height-body-bold-on-step-7);
+
+
+
+
+
+
+
+
+
+
+
+.example__sans-text .step-7 {
+  line-height: var(--text-line-height-sans-on-step-7);
+}
+
+.example__sans-text .step-6 {
+  line-height: var(--text-line-height-sans-on-step-6);
+}
+
+.example__sans-text .step-5 {
+  line-height: var(--text-line-height-sans-on-step-5);
+}
+
+.example__sans-text .step-4 {
+  line-height: var(--text-line-height-sans-on-step-4);
+}
+
+.example__sans-text .step-3 {
+  line-height: var(--text-line-height-sans-on-step-3);
+}
+
+.example__sans-text .step-2 {
+  line-height: var(--text-line-height-sans-on-step-2);
+}
+
+.example__sans-text .step-1 {
+  line-height: var(--text-line-height-sans-on-step-1);
+}
+
+.example__sans-text .step-0, .example__sans-text p {
+  line-height: var(--text-line-height-sans-on-step-0);
+}
+
+.example__sans-text .step--1 {
+  line-height: var(--text-line-height-sans-on-step--1);
+}
+
+.example__sans-text .step--2 {
+  line-height: var(--text-line-height-sans-on-step--2);
+}
+
+
+
+
+
+
+.example__sans-text.example__sans-text--bold .step-7 {
+  line-height: var(--text-line-height-sans-bold-on-step-7);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-6 {
-  line-height: var(--text-line-height-body-bold-on-step-6);
+.example__sans-text.example__sans-text--bold .step-6 {
+  line-height: var(--text-line-height-sans-bold-on-step-6);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-5 {
-  line-height: var(--text-line-height-body-bold-on-step-5);
+.example__sans-text.example__sans-text--bold .step-5 {
+  line-height: var(--text-line-height-sans-bold-on-step-5);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-4 {
-  line-height: var(--text-line-height-body-bold-on-step-4);
+.example__sans-text.example__sans-text--bold .step-4 {
+  line-height: var(--text-line-height-sans-bold-on-step-4);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-3 {
-  line-height: var(--text-line-height-body-bold-on-step-3);
-  letter-spacing: var(--text-letter-spacing-body-bold-on-step-3);
+.example__sans-text.example__sans-text--bold .step-3 {
+  line-height: var(--text-line-height-sans-bold-on-step-3);
+  letter-spacing: var(--text-letter-spacing-sans-bold-on-step-3);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-2 {
-  line-height: var(--text-line-height-body-bold-on-step-2);
+.example__sans-text.example__sans-text--bold .step-2 {
+  line-height: var(--text-line-height-sans-bold-on-step-2);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-1 {
-  line-height: var(--text-line-height-body-bold-on-step-1);
+.example__sans-text.example__sans-text--bold .step-1 {
+  line-height: var(--text-line-height-sans-bold-on-step-1);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step-0, .example__body-text.example__body-text--bold p {
-  line-height: var(--text-line-height-body-bold-on-step-0);
+.example__sans-text.example__sans-text--bold .step-0, .example__sans-text.example__sans-text--bold p {
+  line-height: var(--text-line-height-sans-bold-on-step-0);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step--1 {
-  line-height: var(--text-line-height-body-bold-on-step--1);
+.example__sans-text.example__sans-text--bold .step--1 {
+  line-height: var(--text-line-height-sans-bold-on-step--1);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
-.example__body-text.example__body-text--bold .step--2 {
-  line-height: var(--text-line-height-body-bold-on-step--2);
+.example__sans-text.example__sans-text--bold .step--2 {
+  line-height: var(--text-line-height-sans-bold-on-step--2);
   /* TODO when we have @font-face add this again font-weight: bold; */
 }
 
@@ -180,55 +180,55 @@ body {
 
 
 
-.example__body-text.example__body-text--light .step-7 {
-  line-height: var(--text-line-height-body-light-on-step-7);
+.example__sans-text.example__sans-text--light .step-7 {
+  line-height: var(--text-line-height-sans-light-on-step-7);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-6 {
-  line-height: var(--text-line-height-body-light-on-step-6);
+.example__sans-text.example__sans-text--light .step-6 {
+  line-height: var(--text-line-height-sans-light-on-step-6);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-5 {
-  line-height: var(--text-line-height-body-light-on-step-5);
+.example__sans-text.example__sans-text--light .step-5 {
+  line-height: var(--text-line-height-sans-light-on-step-5);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-4 {
-  line-height: var(--text-line-height-body-light-on-step-4);
+.example__sans-text.example__sans-text--light .step-4 {
+  line-height: var(--text-line-height-sans-light-on-step-4);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-3 {
-  line-height: var(--text-line-height-body-light-on-step-3);
+.example__sans-text.example__sans-text--light .step-3 {
+  line-height: var(--text-line-height-sans-light-on-step-3);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-2 {
-  line-height: var(--text-line-height-body-light-on-step-2);
+.example__sans-text.example__sans-text--light .step-2 {
+  line-height: var(--text-line-height-sans-light-on-step-2);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-1 {
-  line-height: var(--text-line-height-body-light-on-step-1);
+.example__sans-text.example__sans-text--light .step-1 {
+  line-height: var(--text-line-height-sans-light-on-step-1);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step-0, .example__body-text.example__body-text--light p {
-  line-height: var(--text-line-height-body-light-on-step-0);
+.example__sans-text.example__sans-text--light .step-0, .example__sans-text.example__sans-text--light p {
+  line-height: var(--text-line-height-sans-light-on-step-0);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step--1 {
-  line-height: var(--text-line-height-body-light-on-step--1);
-  letter-spacing: var(--text-letter-spacing-body-light-on-step--1);
+.example__sans-text.example__sans-text--light .step--1 {
+  line-height: var(--text-line-height-sans-light-on-step--1);
+  letter-spacing: var(--text-letter-spacing-sans-light-on-step--1);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
-.example__body-text.example__body-text--light .step--2 {
-  line-height: var(--text-line-height-body-light-on-step--2);
-  letter-spacing: var(--text-letter-spacing-body-light-on-step--2);
+.example__sans-text.example__sans-text--light .step--2 {
+  line-height: var(--text-line-height-sans-light-on-step--2);
+  letter-spacing: var(--text-letter-spacing-sans-light-on-step--2);
   /* TODO when we have @font-face add this again font-weight: lighter; */
 }
 
@@ -244,53 +244,53 @@ body {
 
 
 
-.example__display-text.example__display-text--italic .step-7 {
-  line-height: var(--text-line-height-display-italic-on-step-7);
+.example__serif-text.example__serif-text--italic .step-7 {
+  line-height: var(--text-line-height-serif-italic-on-step-7);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-6 {
-  line-height: var(--text-line-height-display-italic-on-step-6);
+.example__serif-text.example__serif-text--italic .step-6 {
+  line-height: var(--text-line-height-serif-italic-on-step-6);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-5 {
-  line-height: var(--text-line-height-display-italic-on-step-5);
+.example__serif-text.example__serif-text--italic .step-5 {
+  line-height: var(--text-line-height-serif-italic-on-step-5);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-4 {
-  line-height: var(--text-line-height-display-italic-on-step-4);
+.example__serif-text.example__serif-text--italic .step-4 {
+  line-height: var(--text-line-height-serif-italic-on-step-4);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-3 {
-  line-height: var(--text-line-height-display-italic-on-step-3);
+.example__serif-text.example__serif-text--italic .step-3 {
+  line-height: var(--text-line-height-serif-italic-on-step-3);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-2 {
-  line-height: var(--text-line-height-display-italic-on-step-2);
+.example__serif-text.example__serif-text--italic .step-2 {
+  line-height: var(--text-line-height-serif-italic-on-step-2);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-1 {
-  line-height: var(--text-line-height-display-italic-on-step-1);
+.example__serif-text.example__serif-text--italic .step-1 {
+  line-height: var(--text-line-height-serif-italic-on-step-1);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step-0, .example__display-text.example__display-text--italic p {
-  line-height: var(--text-line-height-display-italic-on-step-0);
+.example__serif-text.example__serif-text--italic .step-0, .example__serif-text.example__serif-text--italic p {
+  line-height: var(--text-line-height-serif-italic-on-step-0);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step--1 {
-  line-height: var(--text-line-height-display-italic-on-step--1);
+.example__serif-text.example__serif-text--italic .step--1 {
+  line-height: var(--text-line-height-serif-italic-on-step--1);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
-.example__display-text.example__display-text--italic .step--2 {
-  line-height: var(--text-line-height-display-italic-on-step--2);
+.example__serif-text.example__serif-text--italic .step--2 {
+  line-height: var(--text-line-height-serif-italic-on-step--2);
   /* TODO when we have @font-face add this again font-style: italic; */
 }
 
@@ -299,42 +299,42 @@ body {
 
 
 
-.example__display-text .step-7 {
-  line-height: var(--text-line-height-display-on-step-7);
+.example__serif-text .step-7 {
+  line-height: var(--text-line-height-serif-on-step-7);
 }
 
-.example__display-text .step-6 {
-  line-height: var(--text-line-height-display-on-step-6);
+.example__serif-text .step-6 {
+  line-height: var(--text-line-height-serif-on-step-6);
 }
 
-.example__display-text .step-5 {
-  line-height: var(--text-line-height-display-on-step-5);
+.example__serif-text .step-5 {
+  line-height: var(--text-line-height-serif-on-step-5);
 }
 
-.example__display-text .step-4 {
-  line-height: var(--text-line-height-display-on-step-4);
+.example__serif-text .step-4 {
+  line-height: var(--text-line-height-serif-on-step-4);
 }
 
-.example__display-text .step-3 {
-  line-height: var(--text-line-height-display-on-step-3);
+.example__serif-text .step-3 {
+  line-height: var(--text-line-height-serif-on-step-3);
 }
 
-.example__display-text .step-2 {
-  line-height: var(--text-line-height-display-on-step-2);
+.example__serif-text .step-2 {
+  line-height: var(--text-line-height-serif-on-step-2);
 }
 
-.example__display-text .step-1 {
-  line-height: var(--text-line-height-display-on-step-1);
+.example__serif-text .step-1 {
+  line-height: var(--text-line-height-serif-on-step-1);
 }
 
-.example__display-text .step-0, .example__display-text p {
-  line-height: var(--text-line-height-display-on-step-0);
+.example__serif-text .step-0, .example__serif-text p {
+  line-height: var(--text-line-height-serif-on-step-0);
 }
 
-.example__display-text .step--1 {
-  line-height: var(--text-line-height-display-on-step--1);
+.example__serif-text .step--1 {
+  line-height: var(--text-line-height-serif-on-step--1);
 }
 
-.example__display-text .step--2 {
-  line-height: var(--text-line-height-display-on-step--2);
+.example__serif-text .step--2 {
+  line-height: var(--text-line-height-serif-on-step--2);
 }
