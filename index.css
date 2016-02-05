@@ -1,3 +1,4 @@
+@import "font-face.css";
 /**
  * Modular scale for type.
  */
@@ -21,9 +22,9 @@
   --text-size-step-6:  calc( var(--text-size-step-5)  * var(--scale-factor) );
   --text-size-step-7:  calc( var(--text-size-step-6)  * var(--scale-factor) );
 
-  --fontfamily-sans-default: 'Halifax Regular', Tahoma, sans-serif;
+  --fontfamily-sans-default: 'EcoSans', Tahoma, sans-serif;
   --fontfamily-sans: var(--fontfamily-sans-custom, var(--fontfamily-sans-default));
-  --fontfamily-serif-default: 'FF Milo Serif Pro', Palatino, serif;
+  --fontfamily-serif-default: 'EcoSerif', Palatino, serif;
   --fontfamily-serif: var(--fontfamily-serif-custom, var(--fontfamily-serif-default));
 
   --text-line-height-basic: 1.4;
@@ -189,4 +190,5 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

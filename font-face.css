@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "EcoSans";
+  font-weight: 300;
+  src: url('/assets/ecosalig-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecosalig-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EcoSans";
+  font-style: normal;
+  src: url('/assets/ecosareg-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/ecosareg-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EcoSans";
+  font-weight: 700;
+  src: url('/assets/ecosabol-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/ecosabol-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EcoSans";
+  font-style: italic;
+  src: url('/assets/ecosaita-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecosaita-webfont.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EcoSerif";
+  font-style: normal;
+  src: url('/assets/ecosereg.otf');
+}
+
+@font-face {
+  font-family: "EcoSerif";
+  font-style: italic;
+  src: url('/assets/ecoseita.otf');
+}
+
+@font-face {
+  font-family: "EcoSerif";
+  font-weight: 500;
+  src: url('/assets/ecosemed.otf');
+}
