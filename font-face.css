@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "EconSans";
+  font-weight: xlight;
+  src: url('/assets/ecosaxlig-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: xlightita;
+  src: url('/assets/ecosaxligita-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: light;
+  src: url('/assets/ecosalig-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: xitalic;
+  src: url('/assets/ecosaligita-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: regular;
+  src: url('/assets/ecosareg-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: italic;
+  src: url('/assets/ecosaita-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: medium;
+  src: url('/assets/ecosamed-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: mediumita;
+  src: url('/assets/ecosamedita-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: bold;
+  src: url('/assets/ecosabol-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: boldita;
+  src: url('/assets/ecosabolita-webfont.woff2');
+}
+
+@font-face {
+  font-family: "EconSans";
+  font-weight: xbold;
+  src: url('/assets/ecosaxbol-webfont.woff2');
+}
