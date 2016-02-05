@@ -29,17 +29,17 @@
 @font-face {
   font-family: "EcoSerif";
   font-style: normal;
-  src: url('/assets/econsereg.otf');
+  src: url('/assets/ecosereg.otf');
 }
 
 @font-face {
   font-family: "EcoSerif";
   font-style: italic;
-  src: url('/assets/econseita.otf');
+  src: url('/assets/ecoseita.otf');
 }
 
 @font-face {
   font-family: "EcoSerif";
   font-weight: 500;
-  src: url('/assets/econsemed.otf');
+  src: url('/assets/ecosemed.otf');
 }
