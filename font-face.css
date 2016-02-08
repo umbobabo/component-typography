@@ -29,17 +29,20 @@
 @font-face {
   font-family: "EcoSerif";
   font-style: normal;
-  src: url('/assets/ecosereg.otf');
+  src: url('/assets/ecoserifW04-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserifW04-Regular.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: "EcoSerif";
   font-style: italic;
-  src: url('/assets/ecoseita.otf');
+  src: url('/assets/ecoserifW04-Ita.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserifW04-Ita.woff') format('woff'); /* Pretty Modern Browsers */
 }
 
 @font-face {
   font-family: "EcoSerif";
   font-weight: 500;
-  src: url('/assets/ecosemed.otf');
+  src: url('/assets/ecoserifW04-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserifW04-Medium.woff') format('woff'); /* Pretty Modern Browsers */
 }

@@ -7,9 +7,9 @@ const fonts = [
   [ 'sans', '', '', 'EcoSans' ],
   [ 'sans', '700', '', 'EcoSans' ],
   [ 'sans', '', 'italic', 'EcoSans' ],
-  [ 'serif', '', 'italic', 'EcoSerif' ],
   [ 'serif', '', '', 'EcoSerif' ],
   [ 'serif', '500', '', 'EcoSerif' ],
+  [ 'serif', '', 'italic', 'EcoSerif' ],
 ];
 const eachSample = fonts.map((fontFamily) => {
   const [ kind, modifier, fontStyle, family ] = fontFamily;
