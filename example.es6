@@ -7,9 +7,9 @@ const fonts = [
   [ 'sans', '', '', 'EcoSans' ],
   [ 'sans', '700', '', 'EcoSans' ],
   [ 'sans', '', 'italic', 'EcoSans' ],
-  [ 'serif', '', 'italic', 'EcoSerif' ],
   [ 'serif', '', '', 'EcoSerif' ],
   [ 'serif', '500', '', 'EcoSerif' ],
+  [ 'serif', '', 'italic', 'EcoSerif' ],
 ];
 const eachSample = fonts.map((fontFamily) => {
   const [ kind, modifier, fontStyle, family ] = fontFamily;
@@ -18,8 +18,12 @@ const eachSample = fonts.map((fontFamily) => {
     modifier && `example__${ kind }-text--${ modifier }`
   ].join(' ');
   const style = { fontFamily: family };
-  style.fontWeight = modifier;
-  style.fontStyle = fontStyle;
+  if (modifier !== '') {
+    style.fontWeight = modifier;
+  }
+  if (fontStyle !== '') {
+    style.fontStyle = fontStyle;
+  }
   return (
     <Tabs.Panel title={`${family} ${modifier} ${fontStyle}`} key={`typography-${fontFamily.join('x')}`}>
       <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
