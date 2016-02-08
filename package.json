@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-typography",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Typography component containing postCSS variables for font sizes and line-heights for each font size. Uses a major second modular scale.",
   "author": "The Economist (http://economist.com)",
   "license": "ISC",
@@ -109,7 +109,7 @@
     "doc": "parallelshell 'npm run doc:html' 'npm run doc:js' 'npm run doc:css'",
     "doc:css": "cssnext --sourcemap example.css bundle.css",
     "doc:css:watch": "npm run doc:css -- --watch",
-    "doc:html": "npm-assets . && devpack-doc index standalone",
+    "doc:html": "devpack-doc index standalone",
     "doc:html:watch": "npm-watch",
     "doc:js": "npm run prepublish && browserify -d $npm_package_config_testbundle_opts",
     "doc:js:watch": "watchify $npm_package_config_testbundle_opts",
@@ -162,6 +162,22 @@
   "peerDependencies": {
     "react": "^0.14.0"
   },
+  "assets": [
+    "assets/ecosans-bol.woff",
+    "assets/ecosans-bol.woff2",
+    "assets/ecosans-ita.woff",
+    "assets/ecosans-ita.woff2",
+    "assets/ecosans-lig.woff",
+    "assets/ecosans-lig.woff2",
+    "assets/ecosans-reg.woff",
+    "assets/ecosans-reg.woff2",
+    "assets/ecoserif-ita.woff",
+    "assets/ecoserif-ita.woff2",
+    "assets/ecoserif-med.woff",
+    "assets/ecoserif-med.woff2",
+    "assets/ecoserif-reg.woff",
+    "assets/ecoserif-reg.woff2"
+  ],
   "pre-commit": [
     "lint"
   ]
