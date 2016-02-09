@@ -3,13 +3,13 @@ import SampleText from './sampletext';
 import Tabs from 'react-simpletabs';
 
 const fonts = [
-  [ 'sans', '300', '', 'EcoSans' ],
-  [ 'sans', '', '', 'EcoSans' ],
-  [ 'sans', '700', '', 'EcoSans' ],
-  [ 'sans', '', 'italic', 'EcoSans' ],
-  [ 'serif', '', '', 'EcoSerif' ],
-  [ 'serif', '500', '', 'EcoSerif' ],
-  [ 'serif', '', 'italic', 'EcoSerif' ],
+  [ 'sans', '300', '', 'EconSans' ],
+  [ 'sans', '', '', 'EconSans' ],
+  [ 'sans', '700', '', 'EconSans' ],
+  [ 'sans', '', 'italic', 'EconSans' ],
+  [ 'serif', '', '', 'MiloSerifPro' ],
+  [ 'serif', '500', '', 'MiloSerifPro' ],
+  [ 'serif', '', 'italic', 'MiloSerifPro' ],
 ];
 const eachSample = fonts.map((fontFamily) => {
   const [ kind, modifier, fontStyle, family ] = fontFamily;
