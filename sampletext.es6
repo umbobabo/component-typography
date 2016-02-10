@@ -52,8 +52,7 @@ föwehjkwefkjwekfwe</div>
 
 <div className="step-1 heading">step 1 Truffaut disrupt sartorial deserunt</div>
 
-<div className="step-0 heading">step 0 Fingerstache nesciunt lomo nostrud
-hoodie</div>
+<div className="step-0 heading">step 0 abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ !"§ $%& /() =?* '{'<>'} #|; ²³~ @`´ ©«» ¤¼× {'{}'} abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ !"§ $%& /() =?* '{'<>'} #|; ²³~ @`´ ©«» ¤¼× {'{}'} abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ !"§ $%& /() =?* '{'<>'} #|; ²³~ @`´ ©«» ¤¼× {'{}'}abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ !"§ $%& /()</div>
 
 <div className="step--1 heading">step -1 Truffaut disrupt sartorial deserunt</div>
 
