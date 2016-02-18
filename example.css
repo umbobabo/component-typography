@@ -5,6 +5,10 @@ body {
   font-size: 20px;
 }
 
+.fixed * {
+
+}
+
 .samples {
   max-width: 30em;
   margin: auto;
@@ -63,6 +67,33 @@ body {
   font-family: var(--fontfamily-sans);
 }
 
+.fixed .example__serif-text {
+  font-family: 'MiloSerifProModified' !important;
+}
+
+.fixed .example__sans-text {
+  font-family: 'EconSansModified' !important;
+}
+
+td * {
+  border: solid 1px red;
+}
+
+td {
+  vertical-align: top;
+}
+
+.step-3.flight {
+  padding: 1em;
+  background-position: 0 50%;
+  padding-left: 30px;
+  background-size: 28px;
+  background-image: url('assets/circle.png');
+  /*background-size: 98%;*/
+  /*background-image: url('assets/icon-noline.png');*/
+  /*background-image: url('assets/icon.png');*/
+  background-repeat: no-repeat;
+}
 
 
 

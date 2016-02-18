@@ -26,13 +26,28 @@ const eachSample = fonts.map((fontFamily) => {
   }
   return (
     <Tabs.Panel title={`${family} ${modifier} ${fontStyle}`} key={`typography-${fontFamily.join('x')}`}>
-      <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
-      <div
-        className={classes}
-        style={style}
-        data-font={family.toLowerCase().replace(/ /g, '-')}
-      ><SampleText /></div>
-      <hr/>
+      <table>
+        <tr>
+          <td>
+            <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
+            <div
+              className={classes}
+              style={style}
+              data-font={family.toLowerCase().replace(/ /g, '-')}
+            ><SampleText /></div>
+            <hr/>
+          </td>
+          <td className="fixed">
+            <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
+            <div
+              className={classes}
+              style={style}
+              data-font={family.toLowerCase().replace(/ /g, '-')}
+            ><SampleText /></div>
+            <hr/>
+          </td>
+        </tr>
+      </table>
     </Tabs.Panel>
   );
 });

@@ -46,3 +46,52 @@
   src: url('/assets/ecoserif-med.woff2') format('woff2'), /* Super Modern Browsers */
   url('/assets/ecoserif-med.woff') format('woff'); /* Pretty Modern Browsers */
 }
+
+@font-face {
+  font-family: "EconSansModified";
+  font-weight: 300;
+  src: url('/assets/original/ecosalig-webfont-copy.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/original/ecosalig-webfont-copy.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EconSansModified";
+  font-style: normal;
+  src: url('/assets/original/ecosareg-webfont-copy.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/original/ecosareg-webfont-copy.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EconSansModified";
+  font-weight: 700;
+  src: url('/assets/original/ecosabol-webfont-copy.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/original/ecosabol-webfont-copy.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "EconSansModified";
+  font-style: italic;
+  src: url('/assets/original/ecosaita-webfont-copy.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/original/ecosaita-webfont-copy.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "MiloSerifProModified";
+  font-style: normal;
+  src: url('/assets/ecoserif-reg.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserif-reg.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "MiloSerifProModified";
+  font-style: italic;
+  src: url('/assets/ecoserif-ita.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserif-ita.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: "MiloSerifProModified";
+  font-weight: 500;
+  src: url('/assets/ecoserif-med.woff2') format('woff2'), /* Super Modern Browsers */
+  url('/assets/ecoserif-med.woff') format('woff'); /* Pretty Modern Browsers */
+}
