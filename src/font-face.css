@@ -1,3 +1,6 @@
+/* stylelint-disable value-keyword-case */
+/* too many components refer to EconSans */
+
 @font-face {
   font-family: EconSans;
   font-weight: 300;
