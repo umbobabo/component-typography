@@ -1,7 +1,8 @@
 /* stylelint-disable selector-class-pattern */
+/* step classes do not match the desired pattern! */
 
 @import 'index.css';
-@import 'react-simpletabs/lib/react-simpletabs.css';
+@import 'react-tab-panel';
 
 .library--example-tabs {
   font-size: 20px;

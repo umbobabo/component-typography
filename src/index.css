@@ -1,4 +1,5 @@
-/* stylelint-disable custom-property-pattern, number-max-precision */
+/* stylelint-disable custom-property-pattern, number-max-precision, value-keyword-case */
+/* */
 
 @import 'font-face.css';
 /**
@@ -180,6 +181,7 @@
 }
 
 /* stylelint-disable selector-no-type */
+/* setting base font size on html - no default selector */
 
 html {
   font-size: 18px;

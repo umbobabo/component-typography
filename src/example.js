@@ -1,6 +1,6 @@
 import React from 'react';
 import SampleText from './sampletext';
-import Tabs from 'react-simpletabs';
+import TabPanel from 'react-tab-panel';
 
 const fonts = [
   [ 'sans', '300', '', 'EconSans' ],
@@ -11,7 +11,7 @@ const fonts = [
   [ 'serif', '500', '', 'MiloSerifPro' ],
   [ 'serif', '', 'italic', 'MiloSerifPro' ],
 ];
-const eachSample = fonts.map((fontFamily) => {
+const panels = fonts.map((fontFamily) => {
   const [ kind, modifier, fontStyle, family ] = fontFamily;
   const classes = [
     `example__${ kind }-text`,
@@ -25,7 +25,10 @@ const eachSample = fonts.map((fontFamily) => {
     style.fontStyle = fontStyle;
   }
   return (
-    <Tabs.Panel title={`${ family } ${ modifier } ${ fontStyle }`} key={`typography-${ fontFamily.join('x') }`}>
+    <div
+      tabTitle={`${ family } ${ modifier } ${ fontStyle }`}
+      key={`panel-typography-${ fontFamily.join('x') }`}
+    >
       <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
       <div
         className={classes}
@@ -33,11 +36,11 @@ const eachSample = fonts.map((fontFamily) => {
         data-font={family.toLowerCase().replace(/ /g, '-')}
       ><SampleText /></div>
       <hr />
-    </Tabs.Panel>
+    </div>
   );
 });
 export default (
-  <Tabs className="library--example-tabs">
-    {eachSample}
-  </Tabs>
+  <TabPanel>
+    {panels}
+  </TabPanel>
 );
