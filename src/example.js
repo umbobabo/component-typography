@@ -1,11 +1,7 @@
 import React from 'react';
 import SampleText from './sampletext';
-import ReactTabs from 'react-tabs';
+import TabPanel from 'react-tab-panel';
 
-const Tab = ReactTabs.Tab;
-const Tabs = ReactTabs.Tabs;
-const TabList = ReactTabs.TabList;
-const TabPanel = ReactTabs.TabPanel;
 const fonts = [
   [ 'sans', '300', '', 'EconSans' ],
   [ 'sans', '', '', 'EconSans' ],
@@ -29,7 +25,10 @@ const panels = fonts.map((fontFamily) => {
     style.fontStyle = fontStyle;
   }
   return (
-    <TabPanel key={`panel-typography-${ fontFamily.join('x') }`}>
+    <div
+      tabTitle={`${ family } ${ modifier } ${ fontStyle }`}
+      key={`panel-typography-${ fontFamily.join('x') }`}
+    >
       <h2>Sample for font-family: {fontFamily.join(' ')}</h2>
       <div
         className={classes}
@@ -37,26 +36,11 @@ const panels = fonts.map((fontFamily) => {
         data-font={family.toLowerCase().replace(/ /g, '-')}
       ><SampleText /></div>
       <hr />
-    </TabPanel>
-  );
-});
-
-const tabs = fonts.map((fontFamily) => {
-  const [ modifier, fontStyle, family ] = fontFamily;
-  return (
-    <Tab key={`tab-typography-${ fontFamily.join('x') }`}>
-      <span>{family} {modifier} {fontStyle}</span>
-    </Tab>
+    </div>
   );
 });
 export default (
-  <Tabs
-    className="library--example-tabs"
-    selectedIndex={0}
-  >
-    <TabList>
-      {tabs}
-    </TabList>
+  <TabPanel>
     {panels}
-  </Tabs>
+  </TabPanel>
 );
