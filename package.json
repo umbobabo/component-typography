@@ -118,7 +118,7 @@
   },
   "dependencies": {
     "react": "^0.14.8||^15.0.0",
-    "react-simpletabs": "pedronauck/react-simpletabs"
+    "react-tabs": "^0.5.3"
   },
   "devDependencies": {
     "@economist/doc-pack": "^1.0.7",

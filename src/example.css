@@ -2,7 +2,6 @@
 /* step classes do not match the desired pattern! */
 
 @import 'index.css';
-@import 'react-simpletabs/lib/react-simpletabs.css';
 
 .library--example-tabs {
   font-size: 20px;
