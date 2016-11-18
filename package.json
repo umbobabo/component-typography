@@ -116,10 +116,6 @@
       "stylelint-config-strict"
     ]
   },
-  "dependencies": {
-    "react": "^0.14.8||^15.0.0",
-    "react-tab-panel": "^2.2.0"
-  },
   "devDependencies": {
     "@economist/doc-pack": "^1.0.7",
     "@economist/provision-react-component": "3.0.3",
@@ -168,6 +164,8 @@
     "postcss-url": "^5.1.2",
     "react-addons-test-utils": "^0.14.8||^15.0.0",
     "react-dom": "^0.14.8||^15.0.0",
+    "react": "^0.14.8||^15.0.0",
+    "react-tab-panel": "^2.2.0",
     "semantic-release": "^4.3.5",
     "stylelint": "^6.3.3",
     "stylelint-config-strict": "^5.0.0",
