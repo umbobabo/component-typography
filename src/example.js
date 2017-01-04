@@ -5,6 +5,7 @@ import TabPanel from 'react-tab-panel';
 const fonts = [
   [ 'sans', '300', '', 'EconSans' ],
   [ 'sans', '', '', 'EconSans' ],
+  [ 'sans', '500', '', 'EconSans' ],
   [ 'sans', '700', '', 'EconSans' ],
   [ 'sans', '', 'italic', 'EconSans' ],
   [ 'serif', '', '', 'MiloSerifPro' ],

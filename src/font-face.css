@@ -21,6 +21,14 @@
 
 @font-face {
   font-family: EconSans;
+  font-weight: 500;
+  src:
+    url('/assets/ecosans-med.woff2') format('woff2'),
+    url('/assets/ecosans-med.woff') format('woff');
+}
+
+@font-face {
+  font-family: EconSans;
   font-weight: 700;
   src:
     url('/assets/ecosans-bol.woff2') format('woff2'),
