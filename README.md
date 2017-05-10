@@ -2,7 +2,6 @@
 
 Provides typography postCSS variables for other components to use.
 
-
 # Variables we have around here
 
 
